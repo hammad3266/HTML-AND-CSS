@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-circle{
+            height: 500px;
+            width: 500px;
+            border: 2px solid green;
+            border-radius: 50%;
+            margin-left: 30%;
+            margin-top: 60px;
+            background-color: grey;
+            position: relative;
+        }
+        #circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color:indigo;
+            border: 2px solid green;
+            position:absolute;
+            /* left: 0; */
+            /* right: 0; */
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        
+            animation: child1 3s linear 0s;
+            animation-iteration-count: infinite;
+
+        }
+        #circle1{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: red;
+            left: 0;
+            right: 0;
+            
+            margin: auto;
+
+            animation: child2 2s linear 0s;
+            animation-iteration-count: infinite;
+
+
+        }
+        #circle2{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color:chartreuse;
+            border: 1px solid red;
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+
+            animation: child3 2s linear 0s;
+        }
+
+
+        @keyframes child1{
+            0%{
+                left: 0%;
+            }
+            
+            25%{
+                left:30%;
+
+            }
+            50%{
+                left:calc(100% - 200px);
+
+            }
+            100%{
+                left:0%;
+
+            }
+        
+        }
+
+        @keyframes child2{
+            0%{
+                top: 0%;
+            }
+            25%{
+                top: 50%;
+
+            }
+            50%{
+                top:calc(100%-80px);
+
+            }
+            100%{
+                top: 0%;
+            }
+        }
+
+
+
+
+        @keyframes child3{
+            0%{
+                left: 0%;
+            }
+            
+            25%{
+                left:30%;
+
+            }
+            50%{
+                left:calc(100% - 200px);
+
+            }
+            100%{
+                left:0%;
+
+            }
+        
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="main-circle">
+        <div id="circle">
+        <div id="circle1">
+            <div id="circle2"></div>
+        </div>
+            <div>
+    </div>
+</body>
+</html>
