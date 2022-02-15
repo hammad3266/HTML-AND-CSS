@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <style>
+
+
+       #main{
+           display: flex;
+       }
+
+
+        .box{
+            width: 300px;
+            height: 150px;
+            border: 2px solid green;
+            color:rgb(247, 53, 4);
+            text-align: center;
+            line-height: 70px;
+            
+        }
+
+
+        .box:nth-child(1){
+            background-color: grey;
+           
+        }
+        .box:nth-child(2){
+            background-color:pink;
+             
+        }
+        .box:nth-child(3){
+            background-color: orange;
+        }
+        .box:nth-child(4){
+            background-color: blue;
+        
+        }
+
+        @media screen and (max-width:699px) {
+
+            #main{
+                flex-wrap: wrap;
+            }
+            .box:nth-child(4){
+                display: none;
+            }
+            
+        }
+      
+            
+        
+
+
+
+
+
+
+
+
+/* 
+         #box1{
+             background-color: blue;
+             width: 300px;
+             height: 150px;
+             display: flex;
+         }
+         #box2{
+             background-color: pink;
+             width: 300px;
+             height: 150px;
+             
+         }
+         #box3{
+             background-color:green;
+             width: 300px;
+             height: 150px; */
+
+
+            
+
+     </style>
+
+
+</head>
+<body>
+    <div id="main">
+        <div class="box">Most Important</div>
+        <div class="box">Indermadiate Important</div>
+        <div class="box">Less Important</div>
+        <div class="box">Ignore</div>
+
+    </div>
+</body>
+</html>
