@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+        }
+
+        #container {
+            width: 50%;
+            margin: auto;
+            background-color: #ececec;
+            height: 100vh;
+        }
+
+        .box {
+            width: 190px;
+            height: 150px;
+            background: white;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #box-container {
+            width: fit-content;
+            /* height: 70px; */
+            margin: auto;
+            padding-top: 40px;
+        }
+
+        #orders {
+            margin-left: 35px;
+            box-shadow: 0 6px 9px 1px darkgrey;
+        }
+
+        #lightCyanCircle {
+            width: 85px;
+            height: 85px;
+            border: 5px solid seagreen;
+            border-radius: 85px;
+            margin: auto;
+            position: relative;
+            top: 20px;
+            border-top-color: gainsboro;
+            ;
+            border-right-color: gainsboro;
+            transform: rotate(-125deg);
+        }
+
+        #panel-patti {
+            border-top: 1px solid darkgray;
+            height: 27px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .percent {
+            transform: rotate(125deg);
+            padding: 30px;
+
+        }
+
+        .name {
+            margin-left: 10px;
+        }
+
+        .A1 {
+            margin-left: 20px;
+            position: relative;
+            top: 20px;
+
+        }
+
+        .A2 {
+            margin-top: 30px;
+            margin-left: 12px;
+        }
+
+        .clear {
+            margin-left: 30px;
+            margin-top: 30px;
+            background-color: blue;
+            color: white;
+            width: 59px;
+            border-radius: 5px;
+
+
+        }
+
+        .clear2 {
+            margin-left: 12px;
+        }
+
+
+        }
+
+        #taskList {
+            position: relative;
+            top: 35px;
+            */
+        }
+
+        #panel-patti2 {
+            border-top: 1px solid rgb(2, 2, 2);
+            height: 27px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        /* #block{
+    height: 150px;
+    width: 420px;
+    background-color:white;
+    margin-left: 110px;
+    margin-top: 210px;
+    box-shadow: 0 6px 9px 1px darkgrey;
+   
+}
+.clear-two{
+    height: 25px;
+    width: 85px;
+    display: inline-block;
+    background-color:blue;
+    margin-left: 20px;
+    margin-top: 30px ;
+    border-radius: 4px;
+}
+.clear-two2{
+    margin-left: 8px;
+    margin-top: 3px;
+    color: white;
+
+}
+
+.clear-three{
+    height: 25px;
+    width: 85px;
+    display: inline-block;
+    background-color:orange;
+    margin-left: 30px;
+    margin-top: 20px ;
+    border-radius: 4px;
+}
+.clear-three3{
+    margin-left: 5px;
+    margin-top: 3px;
+    color: white;
+
+}
+.clear-four{
+    height: 25px;
+    width: 85px;
+    display: inline-block;
+    background-color:red;
+    margin-left: 100px;
+    margin-top: 20px ;
+    border-radius: 4px;
+}
+.clear-four4{
+    margin-left: 5px;
+    margin-top: 3px;
+    color: white;
+
+} */
+
+
+        .box-one {
+            width: 500px;
+            height: 200px;
+            background-color: white;
+            margin: auto;
+            margin-top: 200px;
+            box-shadow: 0 6px 9px 1px darkgrey;
+        }
+
+        .small-box-top {
+            width: 85px;
+            height: auto;
+            display: flex;
+
+
+        }
+
+        .btn {
+            margin-left: 30px;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        #small-one {
+            background-color: blue;
+            color: white;
+        }
+
+        #small-two {
+            background-color: orange;
+            color: white;
+        }
+
+        #small-three {
+            background-color: red;
+            color: white;
+        }
+
+        #small-four {
+            background-color: green;
+            color: white;
+        }
+
+        .small-box-bottom {
+            width: 20px;
+            height: auto;
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .btn1 {
+            margin-left: 25px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        #small-five {
+            color: blue;
+            font-size: medium;
+        }
+
+        #small-six {
+            color: orange;
+            font-size: medium;
+        }
+
+        #small-seven {
+            color: red;
+            font-size: medium;
+        }
+
+        #small-eight {
+            color: green;
+            font-size: medium;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- upper-box body start -->
+    <div id="container">
+
+        <div id="box-container">
+            <div class="box" id="taskList">
+                <div class="A1">Task List</div>
+                <div class="A2">klscuic k udhedu wudehe wided ejdhe8d</div>
+                <!-- <div class="panel-patti2"></div> -->
+                <div class="clear">
+                    <div class="clear2">Clear</div>
+                </div>
+
+            </div>
+            <div class="box" id="orders">
+                <div id="lightCyanCircle">
+                    <div class="percent">50%</div>
+                </div>
+                <div id="panel-patti">
+                    <div class="name">Order</div>
+                </div>
+
+            </div>
+        </div>
+        <!-- upper-box body end -->
+
+
+
+
+        
+        <!-- bottom-box body start -->
+        <div class="box-one">
+            <div class="small-box-top">
+
+                <div class="btn" id="small-one">PRIMARY</div>
+                <div class="btn" id="small-two">WARNING</div>
+                <div class="btn" id="small-three">DANGER</div>
+                <div class="btn" id="small-four">SUCCESS</div>
+            </div>
+
+            <div class="small-box-bottom">
+
+                <div class="btn1" id="small-five"><b>PRIMARY</b></div>
+                <div class="btn1" id="small-six"><b>WARNING</b></div>
+                <div class="btn1" id="small-seven"><b>DANGER</b></div>
+                <div class="btn1" id="small-eight"><b>SUCCESS</b></div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+<!-- botton-box body end -->
+
+
+</body>
+
+</html>
