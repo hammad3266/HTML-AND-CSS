@@ -1,0 +1,188 @@
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+ol{
+        list-style-type: none;
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+}
+#parent > li{
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+nav{
+    background-color: pink;
+    
+}
+
+#sub-child-menu{
+    left: 107px;
+    top: 23px;
+}
+
+#child-menu li, 
+#sub-child-menu li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#child-menu li:hover,
+#sub-child-menu li:hover{
+
+    background-color: rgb(202, 134, 145);
+}
+
+#child-menu, #sub-child-menu{
+    display: none;
+    position: absolute;
+    background-color: pink;
+    padding: 0;
+    /* padding-right: 20px; */
+    cursor: pointer;
+}
+
+#province-selector:hover #child-menu{
+    display: block;
+}
+
+#child-menu-open:hover #sub-child-menu{
+    display: block;
+}
+        
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ol id="parent">
+            <li>Home</li>
+            <li id="province-selector">Provinces
+
+                <ol id="child-menu">
+                    <li id="child-menu-open">Punjab
+
+                        <ol  id="sub-child-menu">
+                           <li>Gujranwala</li>
+                           <li>Multan</li>
+                           <li>RawalPindi</li>
+                        </ol>
+
+
+                    </li>
+                    <li>Sindh</li>
+                    <li>Frontier</li>
+                    <li>Balochistan</li>
+                </ol>
+
+            </li>
+            <li>COntact Us</li>
+            <li>About</li>
+        </ol>
+    </nav>
+   
+    
+</body>
+</html> -->
+
+
+
+
+
+
+      <!-- <------TRY YOURSELF------->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+
+        #main-ol{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            background-color:salmon;
+
+
+        }
+
+        li{
+            margin-left: 20px;
+            line-height: 50px;
+            
+           
+        }
+    
+
+        #child-ol{
+            display: none;
+        }
+
+        .pro:hover{
+            background-color:sandybrown;
+            cursor: pointer;
+
+        }
+
+         #child-ol li{
+             display:block;
+             list-style: none;
+
+         }
+
+         .date{
+             display: block;
+         }
+
+         
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+
+    <ol id="main-ol">
+        <li>Home</li>
+        <li class="pro">Provinces 
+            <ol id="child-ol">
+                <li class="date">Sindh</li>
+                <li class="date" >Punjab</li>
+                <li class="date" >KPK</li>
+
+            </ol>
+        </li>
+        <li>Contact us</li>
+        <li>Email</li>
+
+    </ol>
+
+    </nav>
+</body>
+</html>
